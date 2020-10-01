@@ -6,15 +6,14 @@ This large object is in the products js file. It is the kind of object you would
 
 
 ## Getting Started
-Create a `script.js` file and an index.html file with the same boiler plate code as before.
 
-Make sure the `products.js` file is in that directory.
-
-In the html file, include the script `products.js`. Remember that the order of the script tags matters.
+1. Fork and clone this repository
+2. Open the `script.js` file. Your solution should be entered in this file.
+3. Make sure the `products.js` file is in that directory.
 
 ### Hint
 It's very important to understand the structure of the `products` object.
-Use the console to look at this object. When you type the `product` variable into the console, it becomes interactive.
+Use the console to look at this object. 
 
 Paste in the code that can access certain parts of the object and see what values, if any, you get out.
 
@@ -38,26 +37,25 @@ Note that you may want to comment out your solutions as you solve them, to avoid
 
 - Print all the products with their **brand**, **price**, and an **image link**
 
-### Further:
-Prompt the user for the product brand and print only those products.
-
-Prompt the user if they want to see only new or used items.
+## Optional Furthers
 
 ### Further:
-Prompt the user what kind of search they want to do- search by brand or search by condition.
+Create a function that takes in the product brand and print only those products.
 
-Then prompt the user to put in ther actual search value- (new/used for condition *or* brand name for brand)
+Modify the function to allow filter of only new or used items.
+
+### Further:
+
+Create a function that can be used for searching products by new/used or brand - (new/used for condition *or* brand name for brand)
 
 ### Further:
 Print out some special error text (e.g. "Sorry, nothing found") if there were no results.
 
-
 ## Hints
-* install a sublime package if you want to be able to see the object more clearly: [https://packagecontrol.io/packages/SyntaxFold](https://packagecontrol.io/packages/SyntaxFold)
+* Use an online json viewer to easily navigate through the json object eg. http://jsonviewer.stack.hu/
 
 * it allows you to "fold" your code to see the format of it.
 
-* If you type in the variable name `products` in the google chrome developer console, you can see and inspect all the items in the product object.
 * When in doubt, think about the different functions available for **strings**, **objects**, and **arrays**.
 * Double-check your results, especially with #5
 * Documentation
@@ -67,6 +65,3 @@ Print out some special error text (e.g. "Sorry, nothing found") if there were no
 
 ---
 
-## Licensing
-1. All content is licensed under a CC-BY-NC-SA 4.0 license.
-2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
